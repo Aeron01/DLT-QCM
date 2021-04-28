@@ -12,9 +12,9 @@ Tant qu'ils atteind de nombreux noeuds, il entrera rapidement dans un bloc et po
 
 - Pouvez vous nommer au moins une personne qui a ou aurait pu influencer directement ou indirectement la création de Bitcoin par ses travaux (une personne qui n'a pas été nommée dans le cours)?
 
- 1 - Nicholas J. Szabo
- 2 -  Hal Finney
- 
+ 1 Nicholas J. Szabo : créateur du système décentraliser bit gold, et qui est l'une des deux sources de bases du Bitcoin.
+ 2 Hal Finney : à travailler avec Wei Dai sur b-money qui est l'autre source de base du Bitcoin
+
 - Avec vos propres recherches et grâce aux compétences acquises en cours pouvez vous expliquer comment une Blockchain crée un lien entre ses différents Blocks?
 
 Chaque bloc contiens un header (qui est crypter par SHA256) et celui du header du bloc précedent. Au final le Merkel root contiens tous les headers des blocs. Essayer d'en changer un, change completement le Merkel root, ce qui la rend invalide.
