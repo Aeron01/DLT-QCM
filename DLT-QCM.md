@@ -22,9 +22,9 @@ Chaque bloc contiens un header (qui est crypter par SHA256) et celui du header d
 
 - Quelle structure de données informatique peut représenter le mieux cette chaine de Block: https://en.wikipedia.org/wiki/List_of_data_structures ?
 
-Merkle Tree
+1- Merkle Tree
 
 - Si je souhaite modifier une transaction de 10 bitcoin que j'ai effectué il y a 6 mois en une transaction de 1 Bitcoin, que dois je modifier dans la Blockchain et que dois je mettre en oeuvre pour que cette modification persiste ?  
   Est ce possible selon vous ?
 
-  il faudrais le changer la transaction dans le bloc d'il y a 6 mois et refaire tous les calcule de tous les block suivant jusqu'à maintenant. Ce qui demande une puissance de calcul, énergetique et un temps largement considérable, que celle produite par celle que l'ont veut modifier. Le coût serrait exorbitant et donc impossible actuellement. Peut-être qu'avec une machine quantique cela sera possible.
+  Il faudrais le changer la transaction dans le bloc d'il y a 6 mois et refaire tous les calculs de tous les blocs suivant jusqu'à maintenant. Ce qui demande une puissance de calcul, d'énergie et de temps quasi impossible.Ce qui rend la possibilité de faire un tel changement impossible actuellement. Peut-être qu'avec un ordinateur quantique abordable par le comun des mortels, mais ce n'est pas pour tout de suite :D.
