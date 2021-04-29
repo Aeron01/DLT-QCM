@@ -32,3 +32,5 @@ correction : la liste chaîner
   Est ce possible selon vous ?
 
   Il faudrais le changer la transaction dans le bloc d'il y a 6 mois et refaire tous les calculs de tous les blocs suivant jusqu'à maintenant. Ce qui demande une puissance de calcul, d'énergie et de temps quasi impossible.Ce qui rend la possibilité de faire un tel changement impossible actuellement. Peut-être qu'avec un ordinateur quantique abordable par le comun des mortels, mais ce n'est pas pour tout de suite :D.
+
+correction : Il faudrait aussi recuillir 51% des noeuds (donc 51% du réseau) pour cela. Ce que les utilisateur n'accepteront jamais car il ne veullent pas que le reseau appartinnent à quelqu'un (et donc en est le contrôle). Dans le cas ou cela arriverais, tous les utilisateurs partiront sur un autre reseau avec une copie de la bloc chaine et continuer sur ce dernier. Car leur but est de se faire de l'argent sans qu'il y est quelqu'un qui controle cette bloc chaîne.
