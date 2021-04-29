@@ -3,6 +3,8 @@
 - Un arbre de merkle nécessite une paire de hashes pour produire un nouveau hash parent. Il faut donc absolument que le nombre de transactions qui produiront le `Merkle root` soit pair.  
   Comment est géré le cas ou le nombre de transactions dans le Block à valider est impair pour générer un `Merlke root` ?
 
+correction : elle est simplement dupliquer.
+
 Les nœuds considèrent toujours que la chaîne la plus longue est la bonne et continueront à l'étendre. Si deux nœuds diffusent simultanément des versions différentes du bloc suivant, certains nœuds peuvent recevoir l'un ou l'autre en premier. Dans ce cas, ils travaillent sur la première qu'ils ont reçue, mais sauvegardent l'autre branche au cas où elle deviendrait plus longue. Le lien sera rompu lorsque la prochaine preuve de travail sera trouvée et qu'une branche deviendra plus longue; les nœuds qui travaillaient sur l'autre branche passeront alors à la plus longue
 
 - Dans le réseau bitcoin, Comment un nouveau noeud arrive t'il à retrouver ses pairs et ainsi rejoindre le réseau ?
@@ -21,6 +23,8 @@ Tant qu'ils atteind de nombreux noeuds, il entrera rapidement dans un bloc et po
 Chaque bloc contiens un header (qui est crypter par SHA256) et celui du header du bloc précedent. Au final le Merkel root contiens tous les headers des blocs. Essayer d'en changer un, change completement le Merkel root, ce qui la rend invalide.
 
 - Quelle structure de données informatique peut représenter le mieux cette chaine de Block: https://en.wikipedia.org/wiki/List_of_data_structures ?
+
+correction : la liste chaîner
 
 1- Merkle Tree
 
